@@ -20,7 +20,7 @@ DQueType *createDQue() {
     return DQ;
 }
 
-int isEmpty(DQueType *DQ) {
+int isEmpty(DQueType *DQ) { // isFull() 함수는 없음!!!!
     if (DQ->front == NULL) {
         printf("\n Linked Queue is empty! \n");
         return 1;
@@ -166,6 +166,9 @@ void printDQ(DQueType *DQ) {
 }
 
 int main(void) {
+    printf("학번 : 18114847, 이름 : 김범준, 5/19 \n");
+    printf("실습#7-3, 데크의 삽입/삭제 -> 연결리스트를 사용해서 구현\n\n");  //deque:double-ended Queue
+
     DQueType *DQ1 = createDQue();
     element data;
 

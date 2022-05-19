@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define Q_SIZE 4
+#define Q_SIZE 3
 
 typedef char element;
 
@@ -66,6 +66,9 @@ void printQ() {
 }
 
 int main(void) {
+	printf("학번 : 18114847, 이름 : 김범준, 5/19 \n");
+	printf("실습#7-2, 원형큐에서의 삽입/삭제\n\n");
+
 	element data;
 
 	enQueue('A'); printQ();
