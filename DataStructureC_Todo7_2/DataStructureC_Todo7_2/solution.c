@@ -8,7 +8,7 @@ element cqueue[Q_SIZE];
 int front = 0, rear = 0;
 
 void isEmpty() {
-	printf("\n Queue is full! \n");
+	printf("\n Queue is empty! \n");
 }
 
 void isFull() {
